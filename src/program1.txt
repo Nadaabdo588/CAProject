@@ -1,0 +1,5 @@
+add r1 r2 
+sub r10 r11
+mul r9 r30
+beqz r19 10
+slc r0 9
