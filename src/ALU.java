@@ -14,7 +14,7 @@ public class ALU {
 		return  r1 *  r2;
 	}
 
-	public boolean BEQZ(byte r1, byte I) {
+	public boolean BEQZ(byte r1) {
 		return  r1 == 0;
 
 	}
