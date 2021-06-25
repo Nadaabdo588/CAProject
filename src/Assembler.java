@@ -103,7 +103,7 @@ public class Assembler {
 		return (short) Integer.parseInt(inst, 2);
 	}
 	
-	private static String valToBin(short x, int size) {
+	public static String valToBin(short x, int size) {
 		String tmp = Integer.toBinaryString(0xFFFF & x);
 		while(tmp.length()<size)
 			tmp = "0"+tmp;
